@@ -28,9 +28,9 @@ cat message.enc
 openssl aes-256-cbc -a -d -in message.enc -out decrypted_letter.txt
 cat decrypted_letter.txt
 
-
 ```
--## What I Observed
+
+## What I Observed
 
 When the file was first encrypted without Base64 encoding, the output appeared as unreadable binary data in the terminal.
 
